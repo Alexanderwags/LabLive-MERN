@@ -1,0 +1,41 @@
+@import '../Global/variables.scss';
+:local{
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        background-color: $RED;
+        border: 1px solid $WHITE;
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            color: $WHITE;
+            text-decoration: none;   
+        }
+    }
+    .btn{
+           color: $WHITE;
+            background: $RED;
+            background: linear-gradient(to right, $BLUE 50%, $RED 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            text-align: center;
+            -webkit-transition: all 0.4s ease 0s;
+            -moz-transition: all 0.4s ease 0s;
+            -ms-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;          
+        }
+        .btn:hover{
+            background-position: left bottom;
+            color: $WHITE !important;
+        }
+        
+
+}

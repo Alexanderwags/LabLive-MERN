@@ -1,19 +1,46 @@
+@import '../Global/variables.scss';
 :local{
 
     .container{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            height: 400px;
-        .image{
+            flex-direction: column;
+            height: 380px;
+            width:100%;
+        .url{
              display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
+           
         }
         .text{
              display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+             width: 100%;
+             .box{
+                  h1{
+                  font-family: 'Nunito Sans', sans-serif;
+               
+                    font-size: 4.5em;
+                    color: #EF7D00;
+                    font-weight: 400;
+                }
+                h3{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 3.5em;
+                    color: #EF7D00;
+                    font-weight: 400;
+                }   
+                p{
+                    text-align: right;
+                    color:$GRAY;
+                }
+             }
+            
         }
         
     }

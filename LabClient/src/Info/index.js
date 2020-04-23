@@ -4,6 +4,7 @@ function Info({color="white",info}) {
     return (
         <div className={Styles.infodet}>
             {info}
+          
         </div>
     )
 }

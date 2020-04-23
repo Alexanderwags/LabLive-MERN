@@ -12,25 +12,7 @@ function Header(props) {
         </div>
         <div className="menu">
           <img src={labimg} alt="img-lab" className={Styles.logo} />
-          <Router>
-            <ul className="routes">
-              <li>
-                <Link to="/hola-mudo">Inicio</Link>
-              </li>
-              <li>
-                <Link to="/">Servicios</Link>
-              </li>
-              <li>
-                <Link to="5">¿Quienes Somos?</Link>
-              </li>
-              <li>
-                <Link to="5">Contactanos</Link>
-              </li>
-              <li>
-                <Link to="5">Resultados en linea</Link>
-              </li>
-            </ul>
-          </Router>
+         
           <div className="sesion">
              <Router>
               <Link to="5">Sign in</Link>
