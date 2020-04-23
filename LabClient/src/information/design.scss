@@ -1,0 +1,68 @@
+@import '../Global//variables.scss';
+.container {
+  width: 100%;
+  margin: 20px auto;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .info{
+    background-color: $RED;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width:48%;
+    height:400px;
+    border-radius: 10%;
+     .cont_idem{
+       padding: 4em;
+       color:$WHITE;
+       h1{
+          font-size: 26px;
+          color:$YELLOW;
+          font-weight: 400;
+          display: table-cell;
+          vertical-align: middle;
+       }
+       p{
+         font-size: 16px;
+         font-weight: 500;
+       }
+     }
+  }
+  .card{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:48%;
+   height:400px;
+     border-radius: 10%;
+    
+}
+
+}
+.btn{
+  color: $BLUE;
+    background: $WHITE;
+    background: linear-gradient(to right, #0075af 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    text-align: center;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    font-size: 16px;
+    padding: 6px 20px;
+    margin: 10px 0 0 0;
+    display: block;
+    width: 110px;
+    text-decoration: none;
+}
+.btn:hover{
+      background-position: left bottom;
+    color: $WHITE !important;
+}

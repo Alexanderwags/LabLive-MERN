@@ -1,0 +1,55 @@
+@import '../Global/variables.scss';
+.header{
+    position: relative;
+ 
+    .svg{
+       
+       transform: rotate(-180deg);
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+          width: 130px;
+         
+        }
+        .routes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            li{
+                a{  
+                  color:$WHITE;
+                  text-decoration: none;
+                  margin-left: 10px;
+                }
+            }
+        }
+        .sesion{
+              display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                   color:$WHITE;
+                  text-decoration: none;
+             
+            }
+        }
+    }
+}
+.hero-gradient{
+    position: relative;
+}
+.hero-gradient::after{
+       content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: white;
+}

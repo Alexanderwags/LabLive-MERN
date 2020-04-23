@@ -1,0 +1,19 @@
+[
+    {   
+        "id":"0",   
+        "title": "Examenes de Laboratorio",
+        "description": "Consulta nuestras promociones y demás tipo de examenes"
+    },
+    {   
+        "id":"1",
+        "title": "PREPARACIÓN DEL PACIENTE",
+        "description": "Antes de realizarse un examen, infórmese de los requisitos necesarios para la toma de muestra."
+    },
+    {   
+        "id":"2",
+        "title": "POLÍTICA DE CALIDAD",
+        "description": "Está comprometido con los más altos estándares de calidad en cada uno de sus servicios"
+    }
+
+
+]

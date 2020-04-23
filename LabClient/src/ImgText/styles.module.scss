@@ -1,0 +1,21 @@
+:local{
+
+    .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        .image{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+        
+}
