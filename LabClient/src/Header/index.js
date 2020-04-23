@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Link } from "react-router-dom";
 import SvgOnda from '../svg/SvgOndaHeader'
 import labimg from '../assets/img/lab.png'
 import Styles from "./styles.module.scss";
+import SvgUser from '../svg/User/SvgUser'
 import './desing.scss';
 function Header(props) {
     return (
@@ -12,14 +13,14 @@ function Header(props) {
         </div>
         <div className="menu">
           <img src={labimg} alt="img-lab" className={Styles.logo} />
-         
+
           <div className="sesion">
-             <Router>
-              <Link to="5">Sign in</Link>
-             </Router>
+            <Router>
+              <Link to="5">Registrase</Link>
+              <Link to="5"><SvgUser/></Link>
+            </Router>
           </div>
         </div>
-     
       </div>
     );
 }
