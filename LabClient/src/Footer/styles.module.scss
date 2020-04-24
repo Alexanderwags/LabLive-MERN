@@ -1,0 +1,26 @@
+@import '../Global/variables.scss';
+
+:local{
+   .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 350px;
+       .ondasvg{
+           height: 350px;
+           width: 100%;
+       }   
+   }
+   .footer{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       .dir{
+           display: flex;
+       justify-content: center;
+       align-items: center;
+       }
+   }
+
+}
