@@ -1,5 +1,6 @@
 import React from 'react'
 import Styles from './styles.module.scss'
+import Grid from '@material-ui/core/Grid'
 
 
 function ImgTetx({text,img,children}) {
@@ -12,9 +13,9 @@ function ImgTetx({text,img,children}) {
             <p>Horario de Atención al Público: 24 Horas</p>
           </div>
         </div>
-        <div className={Styles.url}>
-            {children}
-        </div>
+        <Grid container className={Styles.url} xs={12} alignItems="flex-end">
+          {children}
+        </Grid>
       </div>
     );
 }

@@ -8,16 +8,18 @@ function Home() {
       
     return (
       <div>
-        <ImgText>
-          {[
-            "Servicios",
-            "¿Quienes Somos?",
-            "Contactanos",
-            "Resultados en linea",
-          ].map((text) => (
-            <ButtonBox text={text} />
-          ))}
-        </ImgText>
+       
+          <ImgText>
+            {[
+              "Servicios",
+              "¿Quienes Somos?",
+              "Contactanos",
+              "Resultados en linea",
+            ].map((text) => (
+              <ButtonBox text={text} />
+            ))}
+          </ImgText>
+
         <Info info="BioNet con más de una década de experiencia y un liderazgo indiscutido en el mercado. La filosofía de trabajo de nuestros laboratorios y tomas de muestras se basa en cuatro factores claves de servicio, que son: Prestigio, Calidad, Ubicación y Precio." />
         {Infojson.map((info) => {
           return (

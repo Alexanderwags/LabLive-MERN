@@ -4,23 +4,33 @@
    .container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        align-items: center;  
         position: relative;
-        height: 350px;
-       .ondasvg{
-           height: 350px;
-           width: 100%;
-       }   
+        
    }
-   .footer{
+   .foorter{
        display: flex;
-       justify-content: center;
-       align-items: center;
-       .dir{
-           display: flex;
-       justify-content: center;
-       align-items: center;
+       justify-content: space-between;
+       align-items: flex-end;
+       flex-direction: column;
+       width: 100%;
+       height: 300px;
+       position: relative;
+     
+           background-color: $RED;
+       h6{
+           color:$WHITE;
+       }
+       .end{
+           color:$WHITE;
        }
    }
-
+   .centar{
+          display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+  
 }

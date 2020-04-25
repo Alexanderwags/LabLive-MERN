@@ -1,19 +1,15 @@
 @import '../Global/variables.scss';
+
 .header{
     position: relative;
- 
-    .svg{
-       
-       transform: rotate(-180deg);
-    }
+    
     .menu{
-        position: fixed;
-        top: 0;
-        z-index: 3;
+       
         width: 100%;
         height: 80px;
         display: flex;
         justify-content: space-between;
+         background-color: $RED;
         .logo{
           width: 130px;
          
@@ -35,13 +31,15 @@
               display: flex;
             justify-content: center;
             align-items: center;
+           
             a{
-                
-                   color:$WHITE;
-                  text-decoration: none;
-             
+               color:$WHITE;
+               text-decoration: none; 
             }
         }
+    }
+    .menu + svg{
+      transform: rotate(180deg);
     }
 }
 .sesion a:nth-child(1){
@@ -50,15 +48,7 @@
     border-radius: 5px;
     margin-right: 10px;
 }
-.hero-gradient{
-    position: relative;
-}
-.hero-gradient::after{
-       content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    width: 100%;
-    background-color: white;
-}
+
+
+
+

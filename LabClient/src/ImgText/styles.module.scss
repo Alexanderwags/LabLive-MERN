@@ -7,11 +7,13 @@
             align-items: center;
             flex-direction: column;
             height: 380px;
+            @media(max-width: 600px){
+                height: auto;
+            }
             width:100%;
         .url{
              display: flex;
             justify-content: center;
-            align-items: center;
             width: 100%;
            
         }
