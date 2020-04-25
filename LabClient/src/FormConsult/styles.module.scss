@@ -1,0 +1,17 @@
+@import '../Global/variables.scss';
+:local{
+    .w90{
+        width: 90%;
+    }
+    .secondp{
+        text-align: left;
+        color: $GRAY;
+    }
+    .firsth1{
+        text-align: left;
+         font-family: 'Nunito Sans', sans-serif;
+         font-size: 2em;
+         color:$BLACK;
+         font-weight: 400;
+    }
+}

@@ -7,7 +7,7 @@
         align-items: center;
         width: 100%;
         height: 80px;
-        background-color: $RED;
+        background-color: $BLUE;
         border: 1px solid $WHITE;
         .item{
             display: flex;
@@ -21,8 +21,8 @@
     }
     .btn{
            color: $WHITE;
-            background: $RED;
-            background: linear-gradient(to right, $BLUE 50%, $RED 50%);
+            background: $BLUE;
+            background: linear-gradient(to right, $BLUE 50%, $BLUELIGHT 50%);
             background-size: 200% 100%;
             background-position: right bottom;
             text-align: center;
@@ -37,5 +37,25 @@
             color: $WHITE !important;
         }
         
-
+      .btn1{
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 1.1rem;
+            margin-left: 10px;
+            color: $WHITE;
+            background: $BLUE;
+            background: linear-gradient(to right, $BLUELIGHT  50%,$BLUE  50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            text-align: center;
+            -webkit-transition: all 0.4s ease 0s;
+            -moz-transition: all 0.4s ease 0s;
+            -ms-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;          
+            text-decoration: none;
+        }
+        .btn1:hover{
+            background-position: left bottom;
+            color: $WHITE !important;
+        }
 }

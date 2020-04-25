@@ -8,7 +8,7 @@
   align-items: center;
 
   .info{
-    background-color: $RED;
+    background-color: $BLUE;
     display: flex;
     justify-content: center;
     align-items: left;
@@ -21,7 +21,7 @@
        color:$WHITE;
        h1{
           font-size: 26px;
-          color:$YELLOW;
+          color:$WHITE;
           font-weight: 400;
           display: table-cell;
           vertical-align: middle;
@@ -46,7 +46,7 @@
 .btn{
   color: $BLUE;
     background: $WHITE;
-    background: linear-gradient(to right, #0075af 50%, #fff 50%);
+    background: linear-gradient(to right, $BLUELIGHT 50%, #fff 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     text-align: center;

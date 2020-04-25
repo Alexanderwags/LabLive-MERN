@@ -3,10 +3,13 @@
 
     .container{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            flex-direction: column;
-            height: 380px;
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
             @media(max-width: 600px){
                 height: auto;
             }
@@ -24,24 +27,33 @@
             flex-direction: column;
              width: 100%;
              .box{
+                 margin-top: 100px;
                   h1{
                   font-family: 'Nunito Sans', sans-serif;
                
                     font-size: 4.5em;
-                    color: #EF7D00;
+                    color: $WHITE;
+                    stroke: 1px $BLUE;
+                    -webkit-text-stroke: 1px $BLUE;
+
                     font-weight: 400;
                 }
                 h3{
                     font-family: 'Nunito Sans', sans-serif;
                     font-size: 3.5em;
-                    color: #EF7D00;
+                    color: $WHITE;
+                    stroke: 1px $BLUE;
+                    -webkit-text-stroke: 1px $BLUE;
                     font-weight: 400;
                 }   
                 p{
                     text-align: right;
-                    color:$GRAY;
+                    color:$BLUELIGHT;
+                    stroke: 1px $BLUE;
+                    -webkit-text-stroke: 1px $BLUE;
                 }
              }
+             
             
         }
         

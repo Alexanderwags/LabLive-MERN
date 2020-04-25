@@ -4,19 +4,28 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from '../Pages/Home'
 import Header from '../Header'
 import Footer from '../Footer'
+import ButtonBox from '../ButtonBox'
 const Routers = () => {
     return (
       <>
-          <Header />
-          <Router>
-
-        <Switch>
+        <Header>
+          {[
+            "Servicios",
+            "¿Quienes Somos?",
+            "Contactanos",
+            "Resultados en linea",
+          ].map((text) => (
+            <ButtonBox text={text} />
+          ))}
+        </Header>
+        <Router>
+          <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/Hola-mundo" component={Header} />
             <Route path="/explore" component={Home} />
-        </Switch>
-          </Router>
-          <Footer />
+          </Switch>
+        </Router>
+        <Footer />
       </>
     );
 };
