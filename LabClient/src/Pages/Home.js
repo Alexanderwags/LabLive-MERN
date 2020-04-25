@@ -4,6 +4,7 @@ import Information from '../information'
 import Info from '../Info'
 import ImgText from '../ImgText'
 import ButtonBox from '../ButtonBox'
+import GoogleMapsDir from '../GoogleMapsDir'
 function Home() {
       
     return (
@@ -32,6 +33,7 @@ function Home() {
           );
         })}
         <Info />
+        <GoogleMapsDir/>
       </div>
     );
 }
