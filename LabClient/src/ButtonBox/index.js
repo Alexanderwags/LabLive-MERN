@@ -3,7 +3,7 @@ import cn from 'classnames'
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import Styles from './styles.module.scss'
 import Grid from '@material-ui/core/Grid'
-function ButtonBox({ icon = "", text = "prueba", route = "/hola" ,estilo="1"}) {
+function ButtonBox({  text="",route = "",estilo="1"}) {
   return (
     <>
       {estilo === "2" ? (

@@ -1,0 +1,24 @@
+[
+    {
+        "id":"1",
+        "nom":"Servicios",
+        "route":"servicios"
+    },
+    {
+        
+        "id":"2",
+        "nom":"¿Quienes Somos?",
+        "route":"quienes-somos"
+    },
+    {
+
+        "id":"3",
+        "nom":"Contactanos",
+        "route":"contacto"
+    },
+    {
+        "id":"4",
+        "nom":"Resultados en linea",
+        "route":"resultado-en-linea"
+    }
+]

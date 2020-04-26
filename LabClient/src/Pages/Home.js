@@ -11,8 +11,6 @@ function Home() {
       
     return (
       <>
-        <ImgText/>
-         
       
 
         <Info info="Lablive con más de una década de experiencia y un liderazgo indiscutido en el mercado. " />
