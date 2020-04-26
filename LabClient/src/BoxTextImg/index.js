@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 
 
-function BoxTextImg({children,children2}) {
+function BoxTextImg({children,text}) {
     return (
       <>
         <Grid container xs={12}>
@@ -10,7 +10,7 @@ function BoxTextImg({children,children2}) {
             {children}
           </Grid>
           <Grid container xs={12} sm={6}>
-            {children2}
+              <h1>{text}</h1>
           </Grid>
         </Grid>
       </>
