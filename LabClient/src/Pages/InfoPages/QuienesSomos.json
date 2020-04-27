@@ -1,18 +1,28 @@
 [
     {
+ 
         "id":"1",
-        "mision":"Proveer métodos de apoyo diagnóstico confiable a la medicina, respaldados por la mejor tecnología que nos permitirá satisfacer las necesidades del cuidado de la salud de la comunidad.",
-        "vision":"Ser la mayor, mejor y más confiable red proveedora de métodos de apoyo diagnóstico de salud del país",
-        "calidad":"La razón de nuestro que hacer es efectuar exámenes de laboratorio en forma eficiente, ejerciendo nuestra labor bajo los enunciados de la mejora continua, con los estándares de calidad de la norma NCh-ISO 15189 y el Estándar General de Acreditación para Laboratorios Clínicos del Ministerio de Salud. Nuestro compromiso es lograr la plena satisfacción de los pacientes, mediante una atención cálida y organizada, el cumplimiento de los plazos de entrega de los resultados y una calidad analítica demostrable, priorizando el respeto de las personas y al medio ambiente, a través de la permanente capacitación a nuestro capital humano.",
-        "Valores":{
-            "comp":"Compromiso",
-            "etic":"Etica",
-            "hon":"Honestidad",
-            "lea":"Lealtad",
-            "lid":"Liderazgo",
-            "job":"Profesionalismo",
-            "equ":"Trabajo en Equipo",
-            "serv":"Vocación de Servicio"
-        }
+        "title":"mision",
+        "text":"Proveer métodos de apoyo diagnóstico confiable a la medicina, respaldados por la mejor tecnología que nos permitirá satisfacer las necesidades del cuidado de la salud de la comunidad."
+    
+    },
+    { 
+      
+        "id": "2",
+        "title": "vision",
+        "text":"Ser la mayor, mejor y más confiable red proveedora de métodos de apoyo diagnóstico de salud del país"
+    },
+    {   
+       
+        "id": "3",
+        "title": "calidad",
+        "text":"La razón de nuestro que hacer es efectuar exámenes de laboratorio en forma eficiente, ejerciendo nuestra labor bajo los enunciados de la mejora continua, con los estándares de calidad de la norma NCh-ISO 15189 y el Estándar General de Acreditación para Laboratorios Clínicos del Ministerio de Salud. Nuestro compromiso es lograr la plena satisfacción de los pacientes, mediante una atención cálida y organizada, el cumplimiento de los plazos de entrega de los resultados y una calidad analítica demostrable, priorizando el respeto de las personas y al medio ambiente, a través de la permanente capacitación a nuestro capital humano."
+    },
+    {       
+            "id": "4",
+            "title": "valores",
+            "text":""
+        
     }
+    
 ]
